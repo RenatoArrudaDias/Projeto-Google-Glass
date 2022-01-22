@@ -1,9 +1,9 @@
-function escopoLocal() {
-	let escopoLocalInterno = 'local'
-}
-console.log(escopoLocalInterno);
+/*Qual o resultado esperado após a execução do código abaixo?*/
 
-/*function escopoLocal() {
-	let escopoLocalInterno = “local”;
+function validaNumero(num){
+    if (!num) return “Envie um número válido!”;
+  
+    return num;
 }
-console.log(escopoLocalInterno);*/
+
+validaNumero();
